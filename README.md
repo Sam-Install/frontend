@@ -1,12 +1,66 @@
-# React + Vite
+🛍️ StoreThrift – E-commerce Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive e-commerce frontend built to showcase products, categories, and provide a smooth shopping experience. Designed with performance and usability in mind.
 
-Currently, two official plugins are available:
+🔗 Live Demo: storethrift.netlify.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
 
-## Expanding the ESLint configuration
+Product Listings: Browse products with images, names, and prices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Responsive Design: Works seamlessly on mobile, tablet, and desktop.
+
+Search & Filters: Quickly find the products you want.
+
+Shopping Cart: Add, remove, and view products in the cart.
+
+Easy Checkout: User-friendly interface for checkout (connects to backend if integrated).
+
+🛠️ Technologies Used
+
+Frontend: React.js
+
+Styling: Tailwind CSS
+
+Routing: React Router DOM
+
+Deployment: Netlify
+
+📦 Installation
+
+To run the project locally:
+
+Clone the repository:
+
+git clone <your-repo-url>
+cd frontend
+
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm run dev
+
+
+Open http://localhost:5173
+ in your browser.
+
+📁 Project Structure
+frontend/
+├─ src/
+│  ├─ components/    # Reusable UI components
+│  ├─ pages/         # Pages like Home, Products, Cart
+│  ├─ assets/        # Images, icons, and other assets
+│  ├─ App.jsx        # Main app component
+│  └─ main.jsx       # Entry point
+├─ public/           # Static files
+└─ package.json
+
+⚡ Deployment
+
+The project is deployed on Netlify:
+storethrift.netlify.app
