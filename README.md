@@ -2,7 +2,7 @@
 
 A modern and responsive e-commerce frontend built to showcase products, categories, and provide a smooth shopping experience. Designed with performance and usability in mind.
 
-🔗 Live Demo: storethrift.netlify.app
+🔗 storethrift.netlify.app
 
 🚀 Features
 
